@@ -17,27 +17,28 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "vue"
+        "vue",
     ],
     "rules": {
+        "prettier/prettier": "off", // 被prettier标记的地方抛出黄色警告
         "no-console": 2,
-        "vue/html-indent": ["error", 4],
-        "vue/html-self-closing": ["error", {
-            "html": {
-                "void": "always",
-                "normal": "never",
-                "component": "always"
-            },
-            "svg": "always",  // svg标签自闭合
-            "math": "always"  // MathML标签自闭合
-        }],
-        "vue/max-attributes-per-line": ["error", {
-            "singleline": {
-                "max": 1
-            },      
-            "multiline": {
-                "max": 1
-            }
-        }]
+        "vue/html-indent": ["error", 2],
+        // "vue/html-self-closing": ["error", {
+        //     "html": {
+        //         "void": "always",
+        //         "normal": "never",
+        //         "component": "always"
+        //     },
+        //     "svg": "always",  // svg标签自闭合
+        //     "math": "always"  // MathML标签自闭合
+        // }],
+        // "vue/max-attributes-per-line": ["error", {
+        //     "singleline": {
+        //         "max": 1
+        //     },      
+        //     "multiline": {
+        //         "max": 1
+        //     }
+        // }]
     }
 }
