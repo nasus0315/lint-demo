@@ -6,6 +6,7 @@ specifiers:
   '@vitejs/plugin-vue': ^4.1.0
   cz-git: ^1.6.1
   czg: ^1.6.1
+  echarts: ^5.4.2
   eslint: ^8.41.0
   eslint-config-prettier: ^8.8.0
   eslint-plugin-prettier: ^4.2.1
@@ -37,6 +38,7 @@ devDependencies:
   '@vitejs/plugin-vue': 4.2.3_vite@4.3.8+vue@3.3.4
   cz-git: 1.6.1
   czg: 1.6.1
+  echarts: 5.4.2
   eslint: 8.41.0
   eslint-config-prettier: 8.8.0_eslint@8.41.0
   eslint-plugin-prettier: 4.2.1_xcqkel4mpum3npntysob2xmn54
@@ -1215,6 +1217,13 @@ packages:
 
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
+    dev: true
+
+  /echarts/5.4.2:
+    resolution: {integrity: sha512-2W3vw3oI2tWJdyAz+b8DuWS0nfXtSDqlDmqgin/lfzbkB01cuMEN66KWBlmur3YMp5nEDEEt5s23pllnAzB4EA==}
+    dependencies:
+      tslib: 2.3.0
+      zrender: 5.4.3
     dev: true
 
   /emoji-regex/8.0.0:
@@ -3042,6 +3051,10 @@ packages:
       yn: 3.1.1
     dev: true
 
+  /tslib/2.3.0:
+    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==}
+    dev: true
+
   /tslib/2.5.2:
     resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
     dev: true
@@ -3287,4 +3300,10 @@ packages:
   /yocto-queue/0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: true
+
+  /zrender/5.4.3:
+    resolution: {integrity: sha512-DRUM4ZLnoaT0PBVvGBDO9oWIDBKFdAVieNWxWwK0niYzJCMwGchRk21/hsE+RKkIveH3XHCyvXcJDkgLVvfizQ==}
+    dependencies:
+      tslib: 2.3.0
     dev: true
