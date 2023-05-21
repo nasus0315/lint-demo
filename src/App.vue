@@ -2,5 +2,5 @@
 import dataSource from '@/views/dataSource/index.vue';
 </script>
 <template>
-    <dataSource />
+  <dataSource />
 </template>
